@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --cor-principal: #FF862A;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+header.cabecalho {
+    background-color: #ffffff;
+}
+
+section {
+    padding-bottom: 4.8rem;
+}
+
+.link-nav {
+    color: #CB6D43;
+    font-weight: bold;
+}
+
+.inicio-fundo {
+    background-image: url('img/4965007.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 4rem 0;
+}
+
+.acesso-botao {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background: var(--cor-principal);
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.opcoes-acesso {
+    display: none;
+    list-style: none;
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1.5rem;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.opcoes-acesso.mostrar {
+    display: block;
+}
+
+.rodape {
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem;
+}

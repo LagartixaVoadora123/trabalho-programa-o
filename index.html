@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tropicália</title>
+
+    <!-- Bibliotecas externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tropicália</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#menuNavegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="menuNavegacao" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li><a class="link-nav nav-link" href="#inicio">Início</a></li>
+                        <li><a class="link-nav nav-link" href="#sobre">Sobre</a></li>
+                        <li><a class="link-nav nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Botão de acessibilidade -->
+    <div id="btn-acesso" class="acesso-botao">
+        <i class="bi bi-universal-access"></i>
+    </div>
+
+    <ul id="lista-acesso" class="opcoes-acesso">
+        <li id="mais-fonte">A+</li>
+        <li id="menos-fonte">A-</li>
+        <li id="modo-contraste">Contraste</li>
+    </ul>
+
+    <main>
+        <section id="inicio" class="inicio-fundo">
+            <div class="container">
+                <h1>Bem-vindo à Tropicália</h1>
+                <p>Movimento cultural brasileiro revolucionário.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 Tropicália</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
